@@ -63,6 +63,13 @@ npm i -D typescript @types/node
 npm install --save-dev typescript@^4 eslint@^7.12.1 eslint-plugin-promise@^5.0.0 eslint-plugin-import@^2.22.1 eslint-plugin-node@^11.1.0 @typescript-eslint/eslint-plugin@^4.0.1 eslint-config-standard-with-typescript@latest
 ~~~
 
+6. Husky and LintStaged: Valide the project before the commits
+* [https://github.com/typicode/husky]
+* [https://github.com/okonet/lint-staged]
+~~~bash
+npm i -D husky
+npm i -D lint-staged
+~~~
 
 ### VISUAL STUDIO CODE Plugins
 * TypeScript 
