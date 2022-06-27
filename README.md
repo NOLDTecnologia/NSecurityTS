@@ -35,3 +35,12 @@ NOLD Security TypeScript: Security implementation OAuth2
     ```bash
     nvm install node
     ```
+
+3. Setting a Conventional Commits
+    * The file .gitconfig has the alias to git commands.
+    * https://www.conventionalcommits.org/en/v1.0.0/
+    * https://www.npmjs.com/package/git-commit-msg-linter
+
+    ~~~bash
+    npm i -D git-commit-msg-linter
+    ~~~

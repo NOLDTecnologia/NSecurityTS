@@ -1,0 +1,22 @@
+{
+  "name": "nsecurityts",
+  "version": "1.0.0",
+  "description": "NOLD Security TypeScript: Security implementation OAuth2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NOLDTecnologia/NSecurityTS.git"
+  },
+  "author": "NOLD Tecnologia",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/NOLDTecnologia/NSecurityTS/issues"
+  },
+  "homepage": "https://github.com/NOLDTecnologia/NSecurityTS#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.3"
+  }
+}
