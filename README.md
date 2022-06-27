@@ -46,30 +46,45 @@ NOLD Security TypeScript: Security implementation OAuth2
     ~~~
 
 4. TypeScript
-* with es2021 use node 15.14.0 or above
-[https://node.green/#ES2021]
-* include the TypeScript plugin to VSCode 
+    * with es2021 use node 15.14.0 or above
+    [https://node.green/#ES2021]
+    * include the TypeScript plugin to VSCode 
 
-~~~bash
-npm i -D typescript @types/node
-~~~
+    ~~~bash
+    npm i -D typescript @types/node
+    ~~~
 
 5. ESLint with TypeScript: Add intellisense to typescript to validate the code
-* include the ESLint plugin to VSCode 
-* [https://standardjs.com]
-* [https://github.com/standard/eslint-config-standard-with-typescript]
-* [https://www.npmjs.com/package/@typescript-eslint/eslint-plugin]
-~~~bash
-npm install --save-dev typescript@^4 eslint@^7.12.1 eslint-plugin-promise@^5.0.0 eslint-plugin-import@^2.22.1 eslint-plugin-node@^11.1.0 @typescript-eslint/eslint-plugin@^4.0.1 eslint-config-standard-with-typescript@latest
-~~~
+    * include the ESLint plugin to VSCode 
+    * [https://standardjs.com]
+    * [https://github.com/standard/eslint-config-standard-with-typescript]
+    * [https://www.npmjs.com/package/@typescript-eslint/eslint-plugin]
+    
+    ~~~bash
+    npm install --save-dev typescript@^4 eslint@^7.12.1 eslint-plugin-promise@^5.0.0 eslint-plugin-import@^2.22.1 eslint-plugin-node@^11.1.0 @typescript-eslint/eslint-plugin@^4.0.1 eslint-config-standard-with-typescript@latest
+    ~~~
 
 6. Husky and LintStaged: Valide the project before the commits
-* [https://github.com/typicode/husky]
-* [https://github.com/okonet/lint-staged]
-~~~bash
-npm i -D husky
-npm i -D lint-staged
-~~~
+    * [https://github.com/typicode/husky]
+    * [https://github.com/okonet/lint-staged]
+    
+    ~~~bash
+    npm i -D husky
+    npm i -D lint-staged
+    ~~~
+
+7. Jest: setting an environment Test
+    * [https://jestjs.io]
+    * install jest command line
+    * config the file jest.config.ts
+    
+    ~~~bash
+    npm install -g jest
+    npm i -D jest @types/jest ts-jest
+    npm i -D ts-node
+    jest --init
+    jest --clearCache
+    ~~~
 
 ### VISUAL STUDIO CODE Plugins
 * TypeScript 
