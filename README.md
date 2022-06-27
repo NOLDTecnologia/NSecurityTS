@@ -86,6 +86,12 @@ NOLD Security TypeScript: Security implementation OAuth2
     jest --clearCache
     ~~~
 
+8. NPM-Check: to update libs of the project
+    ~~~bash
+    npm install -g npm-check
+    npm-check -s -u
+    ~~~
+
 ### VISUAL STUDIO CODE Plugins
 * TypeScript 
 * ESLint

@@ -4,8 +4,8 @@
   "description": "NOLD Security TypeScript: Security implementation OAuth2",
   "author": "NOLD Tecnologia",
   "license": "",
-  "keywords": [],
-  "main": "index.js",
+  "keywords": ["Security", "NodeJS", "TypeScript"],
+  "main": "./src/index.ts",
   "homepage": "https://github.com/NOLDTecnologia/NSecurityTS#readme",
   "repository": {
     "type": "git",
