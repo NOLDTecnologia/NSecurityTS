@@ -45,7 +45,7 @@ NOLD Security TypeScript: Security implementation OAuth2
     npm i -D git-commit-msg-linter
     ~~~
 
-4. Adding TypeScript
+4. TypeScript
 * with es2021 use node 15.14.0 or above
 [https://node.green/#ES2021]
 * include the TypeScript plugin to VSCode 
@@ -54,6 +54,17 @@ NOLD Security TypeScript: Security implementation OAuth2
 npm i -D typescript @types/node
 ~~~
 
+5. ESLint with TypeScript: Add intellisense to typescript to validate the code
+* include the ESLint plugin to VSCode 
+* [https://standardjs.com]
+* [https://github.com/standard/eslint-config-standard-with-typescript]
+* [https://www.npmjs.com/package/@typescript-eslint/eslint-plugin]
+~~~bash
+npm install --save-dev typescript@^4 eslint@^7.12.1 eslint-plugin-promise@^5.0.0 eslint-plugin-import@^2.22.1 eslint-plugin-node@^11.1.0 @typescript-eslint/eslint-plugin@^4.0.1 eslint-config-standard-with-typescript@latest
+~~~
+
+
 ### VISUAL STUDIO CODE Plugins
 * TypeScript 
+* ESLint
 
